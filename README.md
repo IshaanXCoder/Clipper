@@ -10,6 +10,15 @@ A modern React Native app with Node.js backend that creates custom video trailer
 - 📝 Add custom text overlays to each scene
 - 🎨 Professional fade and audio effects
 
+
+## Example Usage
+
+### Check out this tweet 
+- **X Url**: https://x.com/0xIshaanK06/status/1936784878072148216
+- Demo : https://github.com/user-attachments/assets/fa087a5c-f7d4-4fde-94cf-2889099b1f1d
+
+
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
@@ -59,6 +68,7 @@ source venv/bin/activate
 python main.py
 ```
 
+
 ## Usage
 
 ### Using the Mobile App
@@ -83,16 +93,3 @@ python main.py
 4. Enter time ranges for each scene
 5. Add custom text overlays
 6. Wait for processing to complete
-
-## API Endpoints
-
-- `GET /health` - Health check
-- `POST /api/process-video` - Start video processing
-- `GET /api/job-status/:jobId` - Check processing status
-- `GET /api/download/:jobId` - Download completed video
-- `GET /api/jobs` - List all jobs (debug)
-
-## Example Usage
-
-### Check out this tweet 
-- **X Url**: ``
