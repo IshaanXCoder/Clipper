@@ -1,0 +1,20 @@
+{
+  "name": "clipper",
+  "version": "1.0.0",
+  "description": "YouTube video trailer creator with React Native frontend and Node.js/Python backend",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm start\" \"cd backend && npm start\"",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "setup:python": "cd backend && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["react-native", "expo", "video-processing", "youtube", "nodejs", "python"],
+  "author": "",
+  "license": "ISC"
+} 
